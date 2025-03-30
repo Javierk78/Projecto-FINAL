@@ -1,4 +1,4 @@
-import { Outlet, replace, useNavigate } from 'react-router-dom';
+import { Outlet, useNavigate } from 'react-router-dom';
 import { Sidebar } from '../components/dashboard';
 import { useUser } from '../hooks';
 import { useState, useEffect } from 'react';
