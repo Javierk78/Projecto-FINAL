@@ -18,7 +18,7 @@ interface Props {
 	register: UseFormRegister<ProductFormValues>;
 }
 
-const headersVariants = ['Stock', 'Precio', 'Capacidad', 'Color', ''];
+const headersVariants = ['Stock', 'Precio', 'Talla/Cilindrada', 'Color', ''];
 
 export const VariantsInput = ({
 	control,
