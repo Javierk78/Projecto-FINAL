@@ -82,7 +82,6 @@ export const Tienda = () => {
 		}
 	}, [availableColors, selectedColor]);
 
-	// Actualizar el almacenamiento seleccionado cuando cambia el color
 	useEffect(() => {
 		if (selectedColor && colors[selectedColor] && !selectedStorage) {
 			setSelectedStorage(colors[selectedColor].storages[0]);
@@ -146,7 +145,6 @@ export const Tienda = () => {
 	useEffect(() => {
 		setCurrentSlug(slug);
 
-		// Reiniciar color, almacenamiento y variante seleccionada
 		setSelectedColor(null);
 		setSelectedStorage(null);
 		setSelectedVariant(null);
@@ -223,10 +221,9 @@ export const Tienda = () => {
 						</div>
 					</div>
 
-					{/* OPCIONES DE ALMACENAMIENTO */}
 					<div className='flex flex-col gap-3'>
 						<p className='text-xs font-medium'>
-							Almacenamiento disponible
+							Talla/Cilindrada
 						</p>
 
 						{selectedColor && (
