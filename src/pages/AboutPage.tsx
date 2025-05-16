@@ -6,7 +6,7 @@ export const AboutPage = () => {
 			</h1>
 
 			<img
-				src='./public/img/EmpresaPuerta.PNG'
+				src='./public/img/EmpresaPuertsa.PNG'
 				alt='Imagen de fondo'
 				className='h-[500px] w-full object-cover'
 			/>
